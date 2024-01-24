@@ -18,11 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex gap-10">
+        <div className="flex">
           <aside className="flex-shrink-0">
             <Sidebar />
           </aside>
-          <div className="flex-1 px-10 pt-10">{children}</div>
+          <div className="flex-1 bg-[#fafafb] pt-[45px]  px-[30px]">{children}</div>
         </div>
       </body>
     </html>

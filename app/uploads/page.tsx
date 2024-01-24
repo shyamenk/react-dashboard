@@ -1,11 +1,7 @@
 import Uploads from "../components/Uploads";
 
 const page = () => {
-  return (
-    <div>
-      <Uploads />
-    </div>
-  );
+  return <Uploads />;
 };
 
 export default page;

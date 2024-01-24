@@ -1,9 +1,9 @@
-import Tasks from "../components/Tasks";
+import Dashboard from "../components/Dashboard";
 
 const page = () => {
   return (
     <div>
-      <Tasks />
+      <Dashboard />
     </div>
   );
 };
